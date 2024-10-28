@@ -26,7 +26,7 @@ export default {
         <div class="loginContainer">
             <div class="loginBox">
                 <div>
-                    <img src="../assets/img/logo.png" class="logo" />
+                    <img src="../assets/img/logo1.png" class="logo" />
                 </div>
                 <div class="flex gap-1 m-4">
                     <input
@@ -58,8 +58,8 @@ export default {
 <style lang="scss">
 .container {
     .loginContainer {
-        min-width: 800px;
-        min-height: 800px;
+        min-width: 600;
+        min-height: 600px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -79,6 +79,12 @@ export default {
             }
 
             .input {
+                width: 100%;
+                padding: 12px;
+                margin-bottom: 16px; /* Khoảng cách giữa các input */
+                border: 1px solid #ccc; /* Đường viền cho input */
+                border-radius: 4px; /* Bo góc cho input */
+                font-size: 16px;
             }
         }
     }

@@ -33,7 +33,7 @@ export default {
         <div class="header-box container">
             <div class="logo">
                 <router-link to="/">
-                    <img src="../assets/img/logo.png" class="logo" />
+                    <img src="../assets/img/logo1.png" class="logo" />
                 </router-link>
             </div>
             <input type="text" class="search-input" placeholder="Tìm kiếm" v-model="bookStore.searchTitle" />

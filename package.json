@@ -1,0 +1,20 @@
+{
+    "name": "quanlymuonsach",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "author": "Nguyen Thuan",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "vite": "^5.4.9"
+    },
+    "dependencies": {
+        "axios": "^1.7.7",
+        "mongoose-sequence": "^6.0.1"
+    }
+}
